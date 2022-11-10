@@ -1,0 +1,37 @@
+body {
+       
+    background-image:url(https://b-static.besthdwallpaper.com/skyline-nissan-modificado-azul-r34-papel-de-parede-2880x1620-93300_52.jpg);
+    display :grid;
+    align-content: center ;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ccc;
+
+    } 
+#layoutLogin {
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+    width: 300px ;
+    border: 1px solid #666;
+    border-radius: 4px; 
+    padding: 10px ;
+}
+        
+#logintela  {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto 1fr;
+}  
+
+#botaologin {
+    background: #ccc;
+}
+
+.campoTexto {
+    height: 20px;
+    background: #ccc;
+    border: 1px solid #333; 
+    }
+  
